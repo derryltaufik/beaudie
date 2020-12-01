@@ -1,0 +1,54 @@
+@import 'web.css';
+
+.content{
+    width: 70%;
+    text-align: center;
+    display:inline-block;
+    margin-bottom: 100px;
+}
+
+.content h1{
+    font-size: xx-large;
+}
+
+.content h3{
+    text-align: left;
+    font-size: x-large; 
+    
+    margin: 20px 0;
+}
+.content h4{
+    text-align: left;  
+    margin: 20px 0;       
+}
+
+.content p{
+    text-align: Justify;
+    font-size: large;
+    text-overflow: ellipsis;
+    overflow:hidden;
+    white-space: normal ;
+}
+
+.content img{
+    width: 80%;
+    border-radius: 0;
+    box-shadow:  0 8px 20px 0px rgba(0, 0, 0, 0.7);
+}
+
+.content ol {
+    padding-left: 15px;
+    text-align: left;
+}
+.content li{
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 800px){
+    .content{
+        width: 85%;
+    }
+    .content img{
+        width: 100%;
+    }
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beaudei - MakeUp and Skincare</title>
+    <script src="./script/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="./style/skincare.css">
+</head>
+
+<body>
+    <div class = "announcement">
+        <p> FREE DELIVERY WITH NO MINIMUM PURCHASE!! </p>
+    </div>
+
+    
+
+    <header>
+        
+        <img src="./assets/logo.png" id="logo" alt="" srcset="">
+    </header>
+    <nav>
+        <div class="dropdown">
+            <!-- insert menu icon === -->
+            <div class="dropbtn">
+                <img src="./assets/menu-black-24dp.svg" alt=""> <span> &ensp; MENU</span>
+            </div>
+            <div class="dropdown-content">
+                <a href="home.html">Home</a>
+                <a href="promotions.html">Promotion</a>
+                <a href="register.html">Register</a>
+                <a href="shopMakeUp.html">Shop Make Up</a>
+                <a href="shopSkinCare.html">Shop Skin Care</a>
+            </div>
+        </div>
+        
+    </nav>
+
+    
+    <article>
+        <h1>Skin Care</h1>
+        <br>
+        <div id="filter-form">
+            <form action="" method="post" autocomplete="off" name="filter">
+                <label for="skinType">Product Type: </label> <br>
+                <select name="producttype" id="producttype">
+                    <!-- <option disabled selected value> Select Product Types</option> -->
+                    <option value="All">All</option>
+                    <option value="mask">Mask</option>
+                    <option value="moisturizer">Moisturizer</option>
+                    <option value="cleanser">Cleanser</option>
+                    <option value="treatment">Treatment</option>
+                </select>
+            </form>
+        </div>
+        <input type="button" value="APPLY" id="applyBtn" class="btn">
+
+        <div class="product-list">
+
+        </div>
+        
+        
+        
+        
+    </article>
+
+    <footer>
+        <p>Copyright © 2020 PT. Beaudie Indonesia, All rights reserved.</p>
+    </footer>
+
+
+    <script src="./script/skincare.js"></script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beaudei - MakeUp and Skincare</title>
+    <script src="./script/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="./style/makeup.css">
+</head>
+
+<body>
+    <div class = "announcement">
+        <p> FREE DELIVERY WITH NO MINIMUM PURCHASE!! </p>
+    </div>
+
+    
+
+    <header>
+        
+        <img src="./assets/logo.png" id="logo" alt="" srcset="">
+    </header>
+    <nav>
+        <div class="dropdown">
+            <!-- insert menu icon === -->
+            <div class="dropbtn">
+                <img src="./assets/menu-black-24dp.svg" alt=""> <span> &ensp; MENU</span>
+            </div>
+            <div class="dropdown-content">
+                <a href="home.html">Home</a>
+                <a href="promotions.html">Promotion</a>
+                <a href="register.html">Register</a>
+                <a href="shopMakeUp.html">Shop Make Up</a>
+                <a href="shopSkinCare.html">Shop Skin Care</a>
+            </div>
+        </div>
+        
+    </nav>
+
+
+    <article>
+        <h1>Make Up</h1>
+
+
+
+        <div id="filter-form">
+            <br>
+            <form action="" method="post" autocomplete="off" name="filter">
+                <label for="skinType">Body Part: </label> <br>
+                <select name="bodypart" id="bodypart">
+                    <!-- <option disabled selected value> Select Body Parts</option> -->
+                    <option value="All">All</option>
+                    <option value="eyes">Eyes</option>
+                    <option value="lips">Lips</option>
+                    <option value="face">Face</option>
+                    <option value="Cheek">Cheek</option>
+
+                </select>
+                <br><br>
+
+                <label for="skinType">Product Type: </label> <br>
+                <select name="producttype" id="producttype">
+                    <!-- <option disabled selected value> Select Product Types</option> -->
+                    <option value="All">All</option>
+                    <option value="serum">Serum</option>
+                    <option value="powder">Powder</option>
+                    <option value="balm">Balm</option>
+                    <option value="moisturizer">Moisturizer</option>
+                    <option value="sets">Sets</option>
+                </select>
+                <br><br>
+                <input type="button" value="APPLY" id="applyBtn" class="btn">
+            </form>
+        </div>
+
+        <div class="product-list">
+
+            <!-- <div class="product-card">
+                <div class="product-image">
+                    <img src="https://www.sephora.com/productimages/sku/s2350221-main-zoom.jpg?imwidth=162" alt="">
+                </div>
+                <div class="product-details">
+                    <h4><a href="">Beaudie's Ultra Face Serum</a></h4>
+                    <span id="body-part" class="product-tag">Face</span>
+                    <span id="product-type" class="product-tag">Serum</span>
+                    <div class="product-bottom-details">
+                        <div class="product-price">Rp79.900</div>
+                        <div class="product-atc"><button> ADD TO CART</button></div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+
+
+
+    </article>
+
+    <footer>
+        <p>Copyright © 2020 PT. Beaudie Indonesia, All rights reserved.</p>
+    </footer>
+
+    <script src="./script/shopMakeUp.js"></script>
+</body>
+
+</html>
